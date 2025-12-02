@@ -266,3 +266,73 @@
         max-width: 350px;
     }
 }
+/* HOW IT WORKS SECTION */
+.how-it-works {
+    padding: 80px 30px;
+    background: white;
+}
+
+.how-container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.how-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #111;
+}
+
+.how-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.how-steps {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.how-step {
+    width: 220px;
+    text-align: center;
+}
+
+.how-number {
+    width: 60px;
+    height: 60px;
+    background: #0a8a1f;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+}
+
+.how-step h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.how-step p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .how-steps {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
