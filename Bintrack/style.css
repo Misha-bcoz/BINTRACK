@@ -336,3 +336,239 @@
         gap: 40px;
     }
 }
+/* LATEST ANNOUNCEMENTS SECTION */
+.announcements {
+    padding: 80px 30px;
+    background: #f8f9fa;
+}
+
+.ann-container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.ann-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #111;
+}
+
+.ann-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.ann-cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.ann-card {
+    width: 320px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+/* Hover animation */
+.ann-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.ann-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.ann-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.ann-time,
+.ann-detail {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .ann-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+}
+/* CTA SECTION */
+.cta-section {
+    background: #f8f9fa;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #111;
+}
+
+.cta-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.cta-btn {
+    padding: 12px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.citizen-btn {
+    background: #0a8a1f;
+    color: white;
+}
+
+.citizen-btn:hover {
+    background: #067018;
+}
+
+.admin-btn {
+    background: white;
+    border: 2px solid #ccc;
+    color: #111;
+}
+
+.admin-btn:hover {
+    background: #f1f1f1;
+}
+/* FOOTER */
+.footer {
+    background: #0b1220;
+    color: #e5e5e5;
+    padding: 70px 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Logo section */
+.footer-logo {
+    max-width: 260px;
+}
+
+.logo-circle {
+    width: 48px;
+    height: 48px;
+    background: #0a8a1f;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-brand {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.footer-tagline {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #9ea9c4;
+}
+
+.footer-desc {
+    margin-top: 15px;
+    color: #bcc5d6;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Links */
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: #bcc5d6;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+}
+
+/* Contact */
+.footer-contact p {
+    font-size: 14px;
+    color: #bcc5d6;
+    margin-bottom: 8px;
+}
+
+/* Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #1a2436;
+    font-size: 14px;
+    color: #98a0b3;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+}
